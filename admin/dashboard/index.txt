@@ -1,19 +1,38 @@
 2:I[9107,[],"ClientPageRoot"]
-3:I[8681,["218","static/chunks/aaea2bcf-8e17e9aebbd3b5ae.js","440","static/chunks/440-b9ac7b4ae68ec339.js","464","static/chunks/464-551e6edc8dd3b8ea.js","427","static/chunks/app/admin/dashboard/page-8acd5ab9881b7840.js"],"default",1]
+3:I[8681,["218","static/chunks/aaea2bcf-8e17e9aebbd3b5ae.js","440","static/chunks/440-b9ac7b4ae68ec339.js","464","static/chunks/464-44a59c3105157704.js","427","static/chunks/app/admin/dashboard/page-8acd5ab9881b7840.js"],"default",1]
 4:I[4707,[],""]
 5:I[6423,[],""]
-7:I[7464,["218","static/chunks/aaea2bcf-8e17e9aebbd3b5ae.js","440","static/chunks/440-b9ac7b4ae68ec339.js","878","static/chunks/878-3dfe01a22c0a381e.js","464","static/chunks/464-551e6edc8dd3b8ea.js","185","static/chunks/app/layout-14426f837faf921d.js"],"AuthProvider"]
-8:I[346,["218","static/chunks/aaea2bcf-8e17e9aebbd3b5ae.js","440","static/chunks/440-b9ac7b4ae68ec339.js","878","static/chunks/878-3dfe01a22c0a381e.js","464","static/chunks/464-551e6edc8dd3b8ea.js","185","static/chunks/app/layout-14426f837faf921d.js"],"ThemeProvider"]
-9:I[4291,["218","static/chunks/aaea2bcf-8e17e9aebbd3b5ae.js","440","static/chunks/440-b9ac7b4ae68ec339.js","878","static/chunks/878-3dfe01a22c0a381e.js","464","static/chunks/464-551e6edc8dd3b8ea.js","185","static/chunks/app/layout-14426f837faf921d.js"],"default"]
-a:I[3726,["218","static/chunks/aaea2bcf-8e17e9aebbd3b5ae.js","440","static/chunks/440-b9ac7b4ae68ec339.js","878","static/chunks/878-3dfe01a22c0a381e.js","464","static/chunks/464-551e6edc8dd3b8ea.js","185","static/chunks/app/layout-14426f837faf921d.js"],"default"]
-6:T416,
+7:I[7464,["218","static/chunks/aaea2bcf-8e17e9aebbd3b5ae.js","440","static/chunks/440-b9ac7b4ae68ec339.js","878","static/chunks/878-3dfe01a22c0a381e.js","464","static/chunks/464-44a59c3105157704.js","185","static/chunks/app/layout-3e9e897cc44aaf43.js"],"AuthProvider"]
+8:I[346,["218","static/chunks/aaea2bcf-8e17e9aebbd3b5ae.js","440","static/chunks/440-b9ac7b4ae68ec339.js","878","static/chunks/878-3dfe01a22c0a381e.js","464","static/chunks/464-44a59c3105157704.js","185","static/chunks/app/layout-3e9e897cc44aaf43.js"],"ThemeProvider"]
+9:I[4291,["218","static/chunks/aaea2bcf-8e17e9aebbd3b5ae.js","440","static/chunks/440-b9ac7b4ae68ec339.js","878","static/chunks/878-3dfe01a22c0a381e.js","464","static/chunks/464-44a59c3105157704.js","185","static/chunks/app/layout-3e9e897cc44aaf43.js"],"default"]
+a:I[3726,["218","static/chunks/aaea2bcf-8e17e9aebbd3b5ae.js","440","static/chunks/440-b9ac7b4ae68ec339.js","878","static/chunks/878-3dfe01a22c0a381e.js","464","static/chunks/464-44a59c3105157704.js","185","static/chunks/app/layout-3e9e897cc44aaf43.js"],"default"]
+6:T835,
           /* EMERGENCY FONT AND STYLE SYSTEM */
+          @font-face {
+            font-family: 'Inter Fallback';
+            src: local(system-ui), local(-apple-system), local(BlinkMacSystemFont), local('Segoe UI'), local(Roboto), local(Helvetica), local(Arial), sans-serif;
+            font-weight: 400 900;
+            font-style: normal;
+            font-display: swap;
+          }
+          
+          /* Base styles for all elements */
+          body, html {
+            font-family: 'Inter Fallback', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important;
+          }
+          
           h1, h2, h3, h4, h5, h6 { 
             font-weight: 900 !important; 
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol' !important;
+            font-family: 'Inter Fallback', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important;
           }
           .font-extrabold, .text-4xl, .text-5xl, .text-6xl { font-weight: 900 !important; }
           .font-semibold, .font-medium { font-weight: 700 !important; }
+          
+          /* Form inputs */
+          input, textarea, select {
+            border: 2px solid #d1d5db !important;
+            border-radius: 0.25rem !important;
+          }
           
           /* DARK BACKGROUND TEXT */
           .bg-gray-900 h2, .bg-gray-900 p { color: white !important; }
@@ -25,6 +44,18 @@ a:I[3726,["218","static/chunks/aaea2bcf-8e17e9aebbd3b5ae.js","440","static/chunk
           .bg-white h1, .bg-white h2 { color: #111827 !important; }
           .text-gray-900 { color: #111827 !important; }
           .text-indigo-600 { color: #4f46e5 !important; }
-        0:["brmL6hOPJiV7RsmoDxVYc",[[["",{"children":["admin",{"children":["dashboard",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",{"children":["admin",{"children":["dashboard",{"children":["__PAGE__",{},[["$L1",["$","$L2",null,{"props":{"params":{},"searchParams":{}},"Component":"$3"}],null],null],null]},[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","admin","children","dashboard","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","admin","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d0d235cd250f8c49.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$6"}}],["$","link",null,{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"}]]}],["$","body",null,{"className":"__className_f50a95 __variable_f50a95","children":["$","$L7",null,{"children":["$","$L8",null,{"attribute":"class","defaultTheme":"light","enableSystem":true,"children":[["$","$L9",null,{}],["$","main",null,{"className":"bg-white min-h-screen","children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}],["$","$La",null,{}]]}]}]}]]}]],null],null],["$Lb",null]]]]
+          
+          /* Jobs page styling */
+          .jobs-list h2, .jobs-list .text-2xl {
+            font-weight: 900 !important;
+            color: #111827 !important;
+          }
+          
+          /* Tables */
+          table th {
+            font-weight: 700 !important;
+            color: #111827 !important;
+          }
+        0:["hef91vI4o36H4Rrtpmybc",[[["",{"children":["admin",{"children":["dashboard",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",{"children":["admin",{"children":["dashboard",{"children":["__PAGE__",{},[["$L1",["$","$L2",null,{"props":{"params":{},"searchParams":{}},"Component":"$3"}],null],null],null]},[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","admin","children","dashboard","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","admin","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/2566fd0ec5d382a3.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$6"}}],["$","link",null,{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"}]]}],["$","body",null,{"className":"__className_f50a95 __variable_f50a95","children":["$","$L7",null,{"children":["$","$L8",null,{"attribute":"class","defaultTheme":"light","enableSystem":true,"children":[["$","$L9",null,{}],["$","main",null,{"className":"bg-white min-h-screen","children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}],["$","$La",null,{}]]}]}]}]]}]],null],null],["$Lb",null]]]]
 b:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"TechTalent - Premier Tech Recruitment and Talent Development"}],["$","meta","3",{"name":"description","content":"TechTalent bridges the gap between top-tier tech professionals and leading companies in Israel and beyond."}],["$","link","4",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}],["$","meta","5",{"name":"next-size-adjust"}]]
 1:null
